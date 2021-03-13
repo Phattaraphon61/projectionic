@@ -1,0 +1,8 @@
+{
+  "name": "projectmini",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "cc4e215d"
+}

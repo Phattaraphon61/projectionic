@@ -1,0 +1,12 @@
+.button{
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  font-size: 25px;
+  left: 80%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

@@ -1,0 +1,20 @@
+<ion-content>
+  <h2 style="margin-top: 80px; margin-left: 20px;">Sign Up</h2>
+  <ion-item style="margin-top:20px; width: 90%;" >
+    <ion-icon name="person-outline"></ion-icon>
+    <ion-input style="margin-left: 3%;" placeholder="Enter Username" [(ngModel)]="this.name"></ion-input>
+  </ion-item>
+  <ion-item style="margin-top:20px; width: 90%;" >
+    <ion-icon name="mail-outline"></ion-icon>
+    <ion-input style="margin-left: 3%;" placeholder="Enter Email" [(ngModel)]="this.email"></ion-input>
+  </ion-item>
+  <ion-item style="margin-top:20px; width: 90%;" >
+    <ion-icon name="lock-open-outline"></ion-icon>
+    <ion-input style="margin-left: 3%;" placeholder="Enter Password" type='password' [(ngModel)]="this.password"></ion-input>
+  </ion-item>
+  <ion-button style="width: 40%;margin-left: 25%;margin-top: 10%;" color='dark' (click)='signup()'>
+    <ion-text color="primary">
+      Sign Up
+    </ion-text>
+  </ion-button>
+</ion-content>
